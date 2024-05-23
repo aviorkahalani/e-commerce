@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { RiShoppingBag3Line, RiMenuLine, RiCloseLine } from "@remixicon/react"
+import { RiShoppingBag3Line, RiMenuLine } from "@remixicon/react"
 import StyleNestLogo from "../assets/stylenest.svg"
 import Container from "./Container"
 import NavbarMobile from "./NavbarMobile"
