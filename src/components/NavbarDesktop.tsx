@@ -1,11 +1,7 @@
 import StyleNestLogo from "../assets/stylenest.svg"
-import { RiMenuLine, RiShoppingBag3Line } from "@remixicon/react"
+import { RiShoppingBag3Line } from "@remixicon/react"
 
-interface NavbarDesktopProps {
-  setOpen: (state: boolean) => void
-}
-
-export default function NavbarDesktop({ setOpen }: NavbarDesktopProps) {
+export default function NavbarDesktop() {
   return (
     <div className="hidden w-full items-center justify-between text-neutral-600 md:flex">
       <div className="flex items-center">

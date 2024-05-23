@@ -23,11 +23,7 @@ export default function Navbar() {
           <RiMenuLine cursor="pointer" onClick={() => setOpen(true)} />
         </div>
 
-        {open ? (
-          <NavbarMobile setOpen={handleMenu} />
-        ) : (
-          <NavbarDesktop setOpen={handleMenu} />
-        )}
+        {open ? <NavbarMobile setOpen={handleMenu} /> : <NavbarDesktop />}
       </Container>
     </header>
   )
