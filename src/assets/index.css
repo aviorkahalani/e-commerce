@@ -3,3 +3,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  #root {
+    @apply min-h-screen bg-gradient-to-br from-[#F9FAFB] to-[#D2D6DB] bg-no-repeat text-sm text-neutral-900 md:text-base;
+  }
+}
